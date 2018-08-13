@@ -11,7 +11,7 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		String d1=sc.next();
-		String d22=sc.next();
+		String d2=sc.next();
 		int a=d1.compareTo(d2);
 	             
 	               if(a==0)
