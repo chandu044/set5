@@ -10,19 +10,19 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		String s1=sc.next();
-		String s2=sc.next();
-		int a=s1.compareTo(s2);
+		String d1=sc.next();
+		String d22=sc.next();
+		int a=d1.compareTo(d2);
 	             
 	               if(a==0)
 	              {
-	    System.out.print(s2);
+	    System.out.print(d1);
 	              
 	             
 	}
 	else 
 	{
-		System.out.print(s1);
+		System.out.print(d1);
 	}
 }
 }
