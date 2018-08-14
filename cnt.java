@@ -13,18 +13,14 @@ class Ideone
 		int n=sc.nextInt();
 		int i=0;
 		int t=n;
-		while(n!=0)
-		{
-			n=n/10;
+		do{
 			i=i+1;
-		}
-	//	if(t==0)
-	//	{
-	//		int j=1;
-	//		System.out.print(j);
-	//	}else
-	//	{
+			n=n/10;
+		}	while(n!=0);
+		
+	
+		
 		System.out.print(i);
-	//	}
+
 	}
 }
