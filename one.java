@@ -15,7 +15,7 @@ class Ideone
       	System.out.print("One");
       	break;
       	case 2:
-      	System.out.print("One");
+      	System.out.print("Two");
       	break;
       	case 3:
       	System.out.print("Three");
